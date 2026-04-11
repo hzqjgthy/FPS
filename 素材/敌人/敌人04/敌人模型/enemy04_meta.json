@@ -1,0 +1,21 @@
+{
+  "name": "Enemy04 Rotwood Overlord",
+  "style": "boss_uncanny_tree_monster",
+  "approx_height_m": 3.15,
+  "formats": [
+    "gltf",
+    "glb"
+  ],
+  "textures": [
+    "enemy04_bark.png",
+    "enemy04_moss.png"
+  ],
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Red Dragon Tech Sniper",
+  "asset_name": "枪03",
+  "category": "sniper_rifle",
+  "style": "web_ready_futuristic_red_dragon_sniper",
+  "formats": [
+    "gltf",
+    "glb"
+  ],
+  "animations": [
+    "idle",
+    "fire",
+    "reload",
+    "ads",
+    "sprint"
+  ],
+  "detail_strategy": "receiver_body_basecolor_plus_generated_normal_and_orm",
+  "weapon_traits": {
+    "damage_profile": "very_high_per_shot",
+    "range_profile": "long_range_precision",
+    "handling": "heavy_scope_weight_deliberate_reload",
+    "best_for": [
+      "precision_shots",
+      "anchoring_lanes",
+      "high_feedback_single_fire"
+    ]
+  },
+  "variant": "modification_optimization_02_embossed_dragon",
+  "modifications": {
+    "target_component": "ReceiverBody",
+    "variant_goal": "embossed_dragon",
+    "generated_textures": [
+      "T_XCR_Iron_Rouge_body_B.png",
+      "T_XCR_Iron_Rouge_body_height_dragonEmboss_v02.png",
+      "T_XCR_Iron_Rouge_body_normal_dragonEmboss_v02.png",
+      "T_XCR_Iron_Rouge_body_orm_dragonEmboss_v02.png"
+    ]
+  }
+}

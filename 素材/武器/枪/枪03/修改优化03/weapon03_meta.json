@@ -1,0 +1,41 @@
+{
+  "name": "Red Dragon Tech Sniper",
+  "asset_name": "枪03",
+  "category": "sniper_rifle",
+  "style": "web_ready_futuristic_red_dragon_sniper",
+  "formats": [
+    "gltf",
+    "glb"
+  ],
+  "animations": [
+    "idle",
+    "fire",
+    "reload",
+    "ads",
+    "sprint"
+  ],
+  "detail_strategy": "add_protruding_dragon_scale_and_dragon_bone_geometry_to_receiver_group",
+  "weapon_traits": {
+    "damage_profile": "very_high_per_shot",
+    "range_profile": "long_range_precision",
+    "handling": "heavy_scope_weight_deliberate_reload",
+    "best_for": [
+      "precision_shots",
+      "anchoring_lanes",
+      "high_feedback_single_fire"
+    ]
+  },
+  "variant": "modification_optimization_03_true_3d_dragon_armor",
+  "modifications": {
+    "target_component": "ReceiverGroup",
+    "variant_goal": "true_3d_dragon_armor",
+    "added_geometry_components": [
+      "dragon_bronze_armor_node",
+      "dragon_obsidian_armor_node"
+    ],
+    "added_materials": [
+      "DragonArmorBronze",
+      "DragonArmorObsidian"
+    ]
+  }
+}

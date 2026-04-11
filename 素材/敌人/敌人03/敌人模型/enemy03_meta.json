@@ -1,0 +1,21 @@
+{
+  "name": "Enemy03 Tree Guardian",
+  "style": "detailed_tree_monster",
+  "approx_height_m": 2.7,
+  "formats": [
+    "gltf",
+    "glb"
+  ],
+  "textures": [
+    "enemy03_bark.png",
+    "enemy03_moss.png"
+  ],
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death"
+  ]
+}

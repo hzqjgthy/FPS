@@ -1,0 +1,27 @@
+{
+  "name": "SCAR-H",
+  "asset_name": "枪02",
+  "category": "battle_rifle",
+  "style": "web_ready_hard_hitting_rifle",
+  "formats": [
+    "gltf",
+    "glb"
+  ],
+  "animations": [
+    "idle",
+    "fire",
+    "reload",
+    "ads",
+    "sprint"
+  ],
+  "weapon_traits": {
+    "damage_profile": "high_per_shot",
+    "range_profile": "strong_mid_range",
+    "handling": "heavy_recoil_lower_fire_rate",
+    "best_for": [
+      "tap_fire",
+      "short_bursts",
+      "heavy_feedback"
+    ]
+  }
+}

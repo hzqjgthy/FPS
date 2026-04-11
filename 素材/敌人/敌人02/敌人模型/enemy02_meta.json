@@ -1,0 +1,17 @@
+{
+  "name": "Enemy02 Tree Brute",
+  "format": [
+    "gltf",
+    "glb"
+  ],
+  "approx_height_m": 2.45,
+  "style": "low_poly_tree_monster",
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death"
+  ]
+}

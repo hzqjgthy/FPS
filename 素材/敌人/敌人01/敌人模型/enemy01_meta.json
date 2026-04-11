@@ -1,0 +1,22 @@
+{
+  "name": "Enemy01 Raider",
+  "style": "low_poly_raider",
+  "approx_height_m": 2.18,
+  "formats": [
+    "gltf",
+    "glb"
+  ],
+  "textures": [
+    "enemy01_bark.png",
+    "enemy01_moss.png"
+  ],
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death"
+  ],
+  "notes": "Asset-driven replacement for the original procedural raider enemy."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "AK-47",
+  "asset_name": "枪01",
+  "category": "assault_rifle",
+  "style": "web_ready_classic_ak",
+  "formats": [
+    "gltf",
+    "glb"
+  ],
+  "animations": [
+    "idle",
+    "fire",
+    "reload",
+    "ads",
+    "sprint"
+  ],
+  "weapon_traits": {
+    "damage_profile": "high_per_shot",
+    "range_profile": "reliable_mid_range",
+    "handling": "classic_recoil_fast_bursts",
+    "best_for": [
+      "spray_control",
+      "short_bursts",
+      "aggressive_pushes"
+    ]
+  }
+}
